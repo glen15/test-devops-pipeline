@@ -2,6 +2,6 @@
 
 module.exports = async function (fastify, opts) {
   fastify.get('/', async function (request, reply) {
-    return 'code pipeline version 6.0'
+    return 'code pipeline version 10.0'
   })
 }
