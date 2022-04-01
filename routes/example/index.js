@@ -2,6 +2,6 @@
 
 module.exports = async function (fastify, opts) {
   fastify.get('/', async function (request, reply) {
-    return 'version 1.0'
+    return 'version 2.0'
   })
 }
