@@ -21,3 +21,5 @@ Run the test cases.
 ## Learn More
 
 To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+
+"start": "FASTIFY_ADDRESS=0.0.0.0 fastify start -l info -p 80 app.js",
